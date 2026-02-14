@@ -3,8 +3,8 @@ if !ENV['CIRCLECI']
   source "https://rubygems.org" do
     gem "xcpretty"
     gem "xcpretty-json-formatter"
-    gem "danger"
-    gem "danger-xcode_summary"
+    gem "danger", ">= 9.2.0"
+    gem "danger-xcode_summary", ">= 0.5.1"
     gem "cocoapods"
   end
 end
